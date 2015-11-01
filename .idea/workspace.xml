@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2565c600-29a2-4efd-9021-5c8d15ad71f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/assets/BulletTurret.java" />
-      <change type="DELETED" beforePath="C:\Users\demet\OneDrive\Documents\TowerDefense\target\classes\ca\demetryromanowski\tdb\TowerDefense.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowerDefense.iml" afterPath="$PROJECT_DIR$/TowerDefense.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/TowerDefense.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/TowerDefense.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TowerDefense.iws" />
@@ -36,9 +29,15 @@
       <file leaf-file-name="TowerDefense.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/TowerDefense.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3606028">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.7868676">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,9 +91,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/TowerDefense.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/assets/BulletTurret.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/TowerDefense.java" />
       </list>
     </option>
   </component>
@@ -555,9 +554,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/TowerDefense.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3606028">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.7868676">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

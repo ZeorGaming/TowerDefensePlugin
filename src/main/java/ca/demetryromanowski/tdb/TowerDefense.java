@@ -1,5 +1,6 @@
 package ca.demetryromanowski.tdb;
 
+import org.bukkit.Location;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 
@@ -40,17 +41,13 @@ public final class TowerDefense extends JavaPlugin implements Listener{
     public void onPlayerInteractBlock(PlayerInteractEvent event){
         Player player = event.getPlayer();
         Block b = player.getLocation().getBlock();
+        Block b1 = player.getWorld().getBlockAt((int)player.getLocation().getX(), (int)player.getLocation().getY() + 1, (int)player.getLocation().getZ());
 
-        if(event.getAction().equals(Action.LEFT_CLICK_BLOCK)) {
-            if (player.getItemInHand().getType() == Material.BLAZE_ROD) {
-                b.setType(Material.DISPENSER);
-                b.setData((byte) 6);
+        if(event.getAction().equals(Action.LEFT_CLICK_AIR)){
+            if(player.getItemInHand().getType() == Material.BLAZE_ROD){
+                b.setType(Material.STONE);
+                b1.setType(Material.DISPENSER);
             }
-        }else if(event.getAction().equals(Action.RIGHT_CLICK_BLOCK)){
-            if(player.getItemInHand().getType() == Material.BLAZE_ROD) b.setType(Material.BEACON);
-
-        }else if(event.getAction().equals(Action.RIGHT_CLICK_AIR)){
-            player.getWorld().spawnEntity(player.getLocation(), EntityType.ARROW);
         }
     }
 }
