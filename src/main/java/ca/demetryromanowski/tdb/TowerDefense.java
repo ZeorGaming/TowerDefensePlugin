@@ -41,9 +41,9 @@ public final class TowerDefense extends JavaPlugin implements Listener{
     public void onPlayerInteractBlock(PlayerInteractEvent event){
         Player player = event.getPlayer();
         Block b = player.getLocation().getBlock();
-        Block b1 = player.getWorld().getBlockAt((int)player.getLocation().getX(), (int)player.getLocation().getY() + 1, (int)player.getLocation().getZ());
+        Block b1 = player.getWorld().getBlockAt((int)Math.floor(player.getLocation().getX()), (int)Math.floor(player.getLocation().getY() + 1), (int)Math.floor(player.getLocation().getZ()));
 
-        if(event.getAction().equals(Action.LEFT_CLICK_AIR)){
+        if(event.getAction().equals(Action.LEFT_CLICK_BLOCK)){
             if(player.getItemInHand().getType() == Material.BLAZE_ROD){
                 b.setType(Material.STONE);
                 b1.setType(Material.DISPENSER);
