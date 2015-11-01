@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TowerDefense:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TowerDefense_jar</output-path>
+    <root id="archive" name="TowerDefense.jar">
+      <element id="module-output" name="TowerDefense" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
