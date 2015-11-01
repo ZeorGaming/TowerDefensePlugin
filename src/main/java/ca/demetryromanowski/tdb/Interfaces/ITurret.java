@@ -1,4 +1,4 @@
-package ca.demetryromanowski.tdb.turrets;
+package ca.demetryromanowski.tdb.Interfaces;
 
 import org.bukkit.World;
 

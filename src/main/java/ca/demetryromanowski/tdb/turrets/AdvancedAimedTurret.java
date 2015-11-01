@@ -1,5 +1,6 @@
 package ca.demetryromanowski.tdb.turrets;
 
+import ca.demetryromanowski.tdb.Interfaces.ITurret;
 import org.bukkit.Material;
 import org.bukkit.World;
 

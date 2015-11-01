@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2565c600-29a2-4efd-9021-5c8d15ad71f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java" />
-      <change type="MOVED" beforePath="C:\Users\demet\OneDrive\Documents\TowerDefense\src\main\java\ca\demetryromanowski\tdb\TowerDefense.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\demet\OneDrive\Documents\TowerDefense\target\classes\ca\demetryromanowski\tdb\TowerDefense.class" afterPath="C:\Users\demet\OneDrive\Documents\TowerDefense\target\classes\ca\demetryromanowski\tdb\TowerDefense.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\demet\OneDrive\Documents\TowerDefense\out\artifacts\TowerDefense_jar\TowerDefense.jar" afterPath="C:\Users\demet\OneDrive\Documents\TowerDefense\out\artifacts\TowerDefense_jar\TowerDefense.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedFireTurret.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/FireTurret.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/loader/Map.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java" />
+      <change type="MOVED" beforePath="C:\Users\demet\OneDrive\Documents\TowerDefense\src\main\java\ca\demetryromanowski\tdb\turrets\ITurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/Interfaces/ITurret.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/TowerDefense_jar/TowerDefense.jar" afterPath="$PROJECT_DIR$/out/artifacts/TowerDefense_jar/TowerDefense.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.yml" afterPath="$PROJECT_DIR$/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TowerDefense.iws" />
@@ -38,24 +44,61 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1232#1233#0" expanded="true" />
-                    <element signature="e#1285#1286#0" expanded="true" />
+                    <element signature="e#859#860#0" expanded="true" />
+                    <element signature="e#912#913#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BasicTurret.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java">
+          <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/loader/Map.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28417653">
-                  <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EventListener.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#97#129#0" expanded="true" />
+                    <element signature="e#706#707#0" expanded="true" />
+                    <element signature="e#748#749#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CowCannon.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#149#181#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BasicTurret.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#149#181#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -65,10 +108,10 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="13" selection-end-column="58" />
+                  <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="14" selection-end-column="58" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#97#129#0" expanded="true" />
+                    <element signature="e#149#181#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,10 +121,10 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+                  <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#97#129#0" expanded="true" />
+                    <element signature="e#149#181#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -91,10 +134,21 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                  <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#149#181#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OmniTool.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.07104413">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -104,7 +158,7 @@
       <split-second>
         <leaf>
           <file leaf-file-name="ITurret.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/ITurret.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/Interfaces/ITurret.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.16576965">
                   <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -145,14 +199,20 @@
         <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/assets/BulletTurret.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/ITurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/TowerDefense.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/worker/NamedItemStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/loader/Map.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/ITurret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/FireTurret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedFireTurret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java" />
       </list>
     </option>
   </component>
@@ -300,6 +360,96 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="turrets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowerDefense" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowerDefense" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowerDefense" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowerDefense" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowerDefense" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowerDefense" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,7 +717,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446353545295</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Turrets aim the way players are facing.&#10;Fixed Basic Turret">
+      <created>1446359500778</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1446359500778</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -606,7 +762,8 @@
     <MESSAGE value="Changed spawning" />
     <MESSAGE value="Changed spawning and added math flooring." />
     <MESSAGE value="Created turret interface, created AimedTurret class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created turret interface, created AimedTurret class" />
+    <MESSAGE value="Turrets aim the way players are facing.&#10;Fixed Basic Turret" />
+    <option name="LAST_COMMIT_MESSAGE" value="Turrets aim the way players are facing.&#10;Fixed Basic Turret" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,43 +792,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#97#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/ITurret.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16576965">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#149#181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,22 +806,114 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="13" selection-end-column="58" />
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#97#129#0" expanded="true" />
+            <element signature="e#149#181#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/loader/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/Interfaces/ITurret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16576965">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28417653">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#97#129#0" expanded="true" />
+            <element signature="e#149#181#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedFireTurret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26049516">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/FireTurret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2131324">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07104413">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
