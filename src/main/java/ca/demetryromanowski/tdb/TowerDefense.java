@@ -1,12 +1,13 @@
 package ca.demetryromanowski.tdb;
 
+import ca.demetryromanowski.tdb.turrets.AimedTurret;
+import ca.demetryromanowski.tdb.turrets.BasicTurret;
 import org.bukkit.Location;
-import org.bukkit.entity.EntityType;
+import org.bukkit.block.BlockFace;
 import org.bukkit.event.EventHandler;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.block.*;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
@@ -40,13 +41,27 @@ public final class TowerDefense extends JavaPlugin implements Listener{
     @EventHandler
     public void onPlayerInteractBlock(PlayerInteractEvent event){
         Player player = event.getPlayer();
-        Block b = player.getLocation().getBlock();
-        Block b1 = player.getWorld().getBlockAt((int)Math.floor(player.getLocation().getX()), (int)Math.floor(player.getLocation().getY() + 1), (int)Math.floor(player.getLocation().getZ()));
 
-        if(event.getAction().equals(Action.LEFT_CLICK_BLOCK)){
-            if(player.getItemInHand().getType() == Material.BLAZE_ROD){
-                b.setType(Material.STONE);
-                b1.setType(Material.DISPENSER);
+        Location ploc = player.getLocation();
+        Location bloc = ploc.toVector().add(ploc.getDirection().normalize()).toLocation(ploc.getWorld());
+
+
+        //getLogger().info(event.getEventName()
+        if (event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
+            if(event.getBlockFace() != BlockFace.UP) return;
+            if (player.getItemInHand().getType() == Material.WOOD) {
+                BlockFace face = ploc.getWorld().getBlockAt(ploc).getFace(ploc.getWorld().getBlockAt(bloc));
+                BasicTurret t = new BasicTurret();
+                AimedTurret t1 = new AimedTurret();
+
+                t.addTurret(player.getWorld(), 0, (int) Math.floor(event.getClickedBlock().getX()),
+                        (int) Math.floor(event.getClickedBlock().getY() + 1),
+                        (int) Math.floor(event.getClickedBlock().getZ()));
+
+                t1.addTurret(player.getWorld(), 0, (int) Math.floor(event.getClickedBlock().getX()),
+                        (int) Math.floor(event.getClickedBlock().getY() + 1),
+                        (int) Math.floor(event.getClickedBlock().getZ() + 1));
+
             }
         }
     }
