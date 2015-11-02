@@ -1,31 +1,35 @@
 package ca.demetryromanowski.tdb.core;
 
-import org.bukkit.Material;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
+/**
+ * @author: Demetry
+ * @syn: Main class that gets loaded for the plugin
+ * TODO(Demetry):
+ */
+
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class TowerDefense extends JavaPlugin{
-    ItemStack itemStack;
+    EventListener listener;
 
     @Override
     public void onEnable(){
         getLogger().info("Congrats, you have Tower Defense Installed!");
+        listener = new EventListener(this);
+        getServer().getPluginManager().registerEvents(listener, this);
 
-        itemStack = new ItemStack(Material.BLAZE_ROD, 1);
-        itemStack.addUnsafeEnchantment(Enchantment.DAMAGE_ARTHROPODS, 1);
-
-        ItemMeta itemMeta = itemStack.getItemMeta();
-        itemMeta.setDisplayName("Tower Defense Omni Tool");
-
-        itemStack.setItemMeta(itemMeta);
-
-        getServer().getPluginManager().registerEvents(new EventListener(itemStack), this);
+        for(Player online : Bukkit.getOnlinePlayers()) {
+            listener.reset(online);
+        }
     }
 
     @Override
     public void onDisable(){
         getLogger().info("Y U DISABLE ME :(");
+    }
+
+    public void printMessage(String message){
+        getLogger().info(message);
     }
 }
