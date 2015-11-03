@@ -1,17 +1,15 @@
 package ca.demetryromanowski.tdb.core;
 
-import ca.demetryromanowski.tdb.blocks.SpawnBlock;
-import ca.demetryromanowski.tdb.turrets.SpinTurret;
-import ca.demetryromanowski.tdb.turrets.Turret;
 import org.bukkit.event.EventHandler;
 
+import ca.demetryromanowski.tdb.turrets.Turret;
 import ca.demetryromanowski.tdb.tools.OmniTool;
 import ca.demetryromanowski.tdb.blocks.SpawnBlocks;
-import ca.demetryromanowski.tdb.turrets.BasicTurret;
 import ca.demetryromanowski.tdb.inventory.Shop;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -20,7 +18,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.PlayerInventory;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static org.bukkit.block.BlockFace.UP;
 
@@ -28,7 +25,7 @@ public class EventListener implements Listener{
     //TODO(Demetry): Clean up variables
     private TowerDefense towerDefense;
     private OmniTool omniTool = new OmniTool();
-    private List<Turret> turrets = new ArrayList();
+    private ArrayList<Turret> turrets = new ArrayList<>();
     private Shop shop;
 
     public EventListener(TowerDefense towerDefense){
@@ -40,21 +37,7 @@ public class EventListener implements Listener{
         reset(event.getPlayer());
     }
 
-    public void reset(Player player){
-        PlayerInventory inventory = player.getInventory();
-
-        PlayerScoreBoard ps = new PlayerScoreBoard(player, towerDefense.getServer());
-
-        inventory.clear();
-        inventory.addItem(omniTool.getTool());
-        inventory.addItem(SpawnBlocks.BASIC_TURRET_SPAWN_BLOCK.getItem());
-
-        player.sendMessage("Welcome to Tower Defense on Bukkit: " + Bukkit.getVersion());
-        player.sendMessage("Use the Omni Tool for things!");
-
-    }
-
-    @EventHandler
+    @EventHandler(priority = EventPriority.HIGH)
     public void onInventoryClick(InventoryClickEvent event){
         try {
             if (event.getCurrentItem() == null) return;
@@ -70,7 +53,7 @@ public class EventListener implements Listener{
         }
     }
 
-    @EventHandler
+    @EventHandler(priority = EventPriority.HIGH)
     public void onPlayerInteractBlock(PlayerInteractEvent event){
         Player player = event.getPlayer();
 
@@ -79,8 +62,7 @@ public class EventListener implements Listener{
             for(SpawnBlocks block : SpawnBlocks.values()) {
                 if (player.getItemInHand().equals(block.getItem())) {
                     turrets.add(
-                        //Create new turret of type.
-                        new SpinTurret(
+                        block.getTurret().addTurret(
                             player.getWorld(),
                             getDirection(player.getLocation().getYaw()),
                             (int) Math.floor(event.getClickedBlock().getX()),
@@ -88,6 +70,7 @@ public class EventListener implements Listener{
                             (int) Math.floor(event.getClickedBlock().getZ())
                         )
                     );
+                    player.getInventory().setItemInHand(null);
                 }
             }
             //remove the turret
@@ -96,6 +79,7 @@ public class EventListener implements Listener{
                 for (Turret t : turrets) {
                     if (event.getClickedBlock().equals(t.getBotBlock()) || event.getClickedBlock().equals(t.getTopBlock()))
                         t.removeTurret();
+                        //player.getInventory().addItem(t.getSpawnBlock());
                     //TODO(Demetry) Give turret back to player, if omnitool was used give back all upgrades with it.
                 }
             }
@@ -104,6 +88,7 @@ public class EventListener implements Listener{
             if(player.getItemInHand().equals(omniTool.getTool())){
                 player.openInventory(new Shop(player).getShop());
             }
+            //player.getWorld().spawnEntity(player.getLocation(), EntityType.ZOMBIE);
         }
     }
 
@@ -130,5 +115,19 @@ public class EventListener implements Listener{
             }
         }
         return 1;
+    }
+
+    public void reset(Player player){
+        PlayerInventory inventory = player.getInventory();
+
+        PlayerScoreBoard ps = new PlayerScoreBoard(player, towerDefense.getServer());
+
+        inventory.clear();
+        inventory.addItem(omniTool.getTool());
+        inventory.addItem(SpawnBlocks.BASIC_TURRET_SPAWN_BLOCK.getItem());
+
+        player.sendMessage("Welcome to Tower Defense on Bukkit: " + Bukkit.getVersion());
+        player.sendMessage("Use the Omni Tool for things!");
+
     }
 }

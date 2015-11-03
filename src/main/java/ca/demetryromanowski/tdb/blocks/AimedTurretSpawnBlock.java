@@ -1,9 +1,9 @@
 package ca.demetryromanowski.tdb.blocks;
 
-import org.bukkit.Material;
+import ca.demetryromanowski.tdb.turrets.AimedTurret;
 
 public class AimedTurretSpawnBlock extends SpawnBlock{
     public AimedTurretSpawnBlock(){
-        super(Material.IRON_BLOCK, "Aimed Turret");
+        super(new AimedTurret(), AimedTurret.BOTTOM, "Aimed Turret");
     }
 }

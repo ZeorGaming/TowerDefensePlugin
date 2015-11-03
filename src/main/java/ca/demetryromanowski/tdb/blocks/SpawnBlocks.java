@@ -1,5 +1,6 @@
 package ca.demetryromanowski.tdb.blocks;
 
+import ca.demetryromanowski.tdb.turrets.Turret;
 import org.bukkit.inventory.ItemStack;
 
 public enum SpawnBlocks {
@@ -11,13 +12,18 @@ public enum SpawnBlocks {
     ADVANCED_FIRE_TURRET_SPAWN_BLOCK (new AdvancedFireTurretSpawnBlock()),
     COW_CANNON_SPAWN_BLOCK (new CowCannonSpawnBlock());
 
-    private ItemStack value;
+    private ItemStack item;
+    private Turret turret;
 
-    SpawnBlocks(SpawnBlock value){
-        this.value = value.getBlock();
+    SpawnBlocks(SpawnBlock spawnBlock){
+        this.item = spawnBlock.getBlock();
+        this.turret = spawnBlock.getType();
     }
 
     public ItemStack getItem(){
-        return value;
+        return item;
+    }
+    public Turret getTurret(){
+        return turret;
     }
 }

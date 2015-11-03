@@ -1,9 +1,9 @@
 package ca.demetryromanowski.tdb.blocks;
 
-import org.bukkit.Material;
+import ca.demetryromanowski.tdb.turrets.CowCannon;
 
 public class CowCannonSpawnBlock extends SpawnBlock{
     public CowCannonSpawnBlock(){
-        super(Material.GLOWSTONE, "Cow Cannon");
+        super(new CowCannon(), CowCannon.BOTTOM, "Cow Cannon");
     }
 }

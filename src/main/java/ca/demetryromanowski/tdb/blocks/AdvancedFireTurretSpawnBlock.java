@@ -1,9 +1,9 @@
 package ca.demetryromanowski.tdb.blocks;
 
-import org.bukkit.Material;
+import ca.demetryromanowski.tdb.turrets.AdvancedFireTurret;
 
 public class AdvancedFireTurretSpawnBlock extends SpawnBlock{
     public AdvancedFireTurretSpawnBlock(){
-        super(Material.NETHER_BRICK, "Advanced Fire Turret");
+        super(new AdvancedFireTurret(), AdvancedFireTurret.BOTTOM, "Advanced Fire Turret");
     }
 }

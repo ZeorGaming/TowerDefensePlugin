@@ -2,33 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2565c600-29a2-4efd-9021-5c8d15ad71f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurretSpawnBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedFireTurretSpawnBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AimedTurretSpawnBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/BasicTurretSpawnBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/CowCannonSpawnBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/FireTurretSpawnBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/enchantments/Glow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/Interfaces/ITool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/PlayerScoreBoard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/inventory/Shop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlocks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpinTurretSpawnBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/demet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/TowerDefense_jar/TowerDefense.jar" afterPath="$PROJECT_DIR$/out/artifacts/TowerDefense_jar/TowerDefense.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurretSpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurretSpawnBlock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedFireTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedFireTurret.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedFireTurretSpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedFireTurretSpawnBlock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AimedTurretSpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AimedTurretSpawnBlock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/BasicTurretSpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/BasicTurretSpawnBlock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/CowCannonSpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/CowCannonSpawnBlock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/FireTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/FireTurret.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/FireTurretSpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/FireTurretSpawnBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlocks.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpinTurretSpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpinTurretSpawnBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java" afterPath="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TowerDefense.iws" />
@@ -51,105 +43,77 @@
     <favorites_list name="TowerDefense" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.50537634">
       <split-first>
         <leaf>
-          <file leaf-file-name="EventListener.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="EventListener.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+                <state vertical-scroll-proportion="0.5026911">
+                  <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1164#1165#0" expanded="true" />
-                    <element signature="e#1212#1213#0" expanded="true" />
-                    <element signature="e#1284#1285#0" expanded="true" />
-                    <element signature="e#1324#1325#0" expanded="true" />
+                    <element signature="e#1031#1032#0" expanded="true" />
+                    <element signature="e#1079#1080#0" expanded="true" />
+                    <element signature="e#1151#1152#0" expanded="true" />
+                    <element signature="e#1191#1192#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TurretTypes.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java">
+          <file leaf-file-name="TowerDefense.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.11840689">
-                  <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AimedTurretSpawnBlock.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AimedTurretSpawnBlock.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#185#186#0" expanded="true" />
+                    <element signature="e#261#262#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BasicTurretSpawnBlock.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/BasicTurretSpawnBlock.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SpawnBlocks.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlocks.java">
+          <file leaf-file-name="AdvancedAimedTurretSpawnBlock.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurretSpawnBlock.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-                  <folding>
-                    <element signature="e#661#662#0" expanded="true" />
-                  </folding>
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="OmniTool.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java">
+          <file leaf-file-name="TurretTypes.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                  <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1348#1349#0" expanded="true" />
-                    <element signature="e#1385#1386#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SpawnBlock.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1156#1157#0" expanded="true" />
-                    <element signature="e#1188#1189#0" expanded="true" />
-                    <element signature="e#1233#1234#0" expanded="true" />
-                    <element signature="e#1271#1272#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BasicTurret.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#205#206#0" expanded="true" />
-                    <element signature="e#263#264#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Turret.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#128#160#0" expanded="true" />
-                    <element signature="e#1402#1403#0" expanded="true" />
-                    <element signature="e#1435#1436#0" expanded="true" />
-                    <element signature="e#1467#1468#0" expanded="true" />
-                    <element signature="e#1500#1501#0" expanded="true" />
-                    <element signature="e#1527#1528#0" expanded="true" />
-                    <element signature="e#1570#1571#0" expanded="true" />
+                    <element signature="e#561#562#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -159,15 +123,57 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="BasicTurretSpawnBlock.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/BasicTurretSpawnBlock.java">
+          <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/inventory/Shop.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28417653">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SpawnBlocks.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlocks.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#292#293#0" expanded="true" />
-                    <element signature="e#321#322#0" expanded="true" />
+                    <element signature="e#821#822#0" expanded="true" />
+                    <element signature="e#848#849#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SpawnBlock.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#853#854#0" expanded="true" />
+                    <element signature="e#885#886#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Turret.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.28955868">
+                  <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2013#2014#0" expanded="true" />
+                    <element signature="e#2040#2041#0" expanded="true" />
+                    <element signature="e#2210#2211#0" expanded="true" />
+                    <element signature="e#2240#2241#0" expanded="true" />
+                    <element signature="e#2278#2279#0" expanded="true" />
+                    <element signature="e#2308#2309#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -218,28 +224,28 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/TurretSpawnBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/enchantments/Glow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/FireTurretSpawnBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpinTurretSpawnBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AimedTurretSpawnBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedFireTurretSpawnBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurretSpawnBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/CowCannonSpawnBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/inventory/Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpinTurretSpawnBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AimedTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/FireTurret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/FireTurretSpawnBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedFireTurretSpawnBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedFireTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/CowCannonSpawnBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/BasicTurretSpawnBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurretSpawnBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/inventory/Shop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AimedTurretSpawnBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java" />
       </list>
     </option>
   </component>
@@ -849,36 +855,42 @@
       <option name="project" value="LOCAL" />
       <updated>1446362678640</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added New Spawn Blocks&#10;Created enum for all spawn blocks&#10;Fixed bugs&#10;Lots of minor changes I can't be bothered to list.">
+      <created>1446496151842</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1446496151842</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1598746" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1598746" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1765625" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -898,7 +910,8 @@
     <MESSAGE value="Created turret interface, created AimedTurret class" />
     <MESSAGE value="Turrets aim the way players are facing.&#10;Fixed Basic Turret" />
     <MESSAGE value="Added three more turrets.&#10;Added EventListener Class&#10;Modified main class to use Event Listener&#10;Fixed Turret rotation&#10;Final Commit for Tonight 11012015" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added three more turrets.&#10;Added EventListener Class&#10;Modified main class to use Event Listener&#10;Fixed Turret rotation&#10;Final Commit for Tonight 11012015" />
+    <MESSAGE value="Added New Spawn Blocks&#10;Created enum for all spawn blocks&#10;Fixed bugs&#10;Lots of minor changes I can't be bothered to list." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added New Spawn Blocks&#10;Created enum for all spawn blocks&#10;Fixed bugs&#10;Lots of minor changes I can't be bothered to list." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -942,14 +955,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/inventory/ItemStack.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4878049">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,75 +1006,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurretSpawnBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11840689">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.44994617">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding>
-            <element signature="e#176#177#0" expanded="false" />
-            <element signature="e#244#245#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedFireTurretSpawnBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18945102">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#242#243#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AimedTurretSpawnBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09472551">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/CowCannonSpawnBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18945102">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#156#157#0" expanded="false" />
-            <element signature="e#211#212#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1348#1349#0" expanded="false" />
+            <element signature="e#1385#1386#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpinTurretSpawnBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16576965">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.14208826">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#158#159#0" expanded="false" />
-            <element signature="e#210#211#0" expanded="false" />
+            <element signature="e#182#183#0" expanded="false" />
+            <element signature="e#255#256#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/inventory/Shop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28417653">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.16576965">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#189#190#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/FireTurretSpawnBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16576965">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="e#158#159#0" expanded="false" />
-            <element signature="e#215#216#0" expanded="false" />
+            <element signature="e#182#183#0" expanded="false" />
+            <element signature="e#255#256#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedFireTurretSpawnBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#188#189#0" expanded="false" />
+            <element signature="e#217#218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/CowCannonSpawnBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14208826">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#179#180#0" expanded="false" />
+            <element signature="e#249#250#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.047362756">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#219#220#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1079,53 +1097,30 @@
         <state vertical-scroll-proportion="0.18945102">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedAimedTurret.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2131324">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28417653">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/SpinTurret.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09472551">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/FireTurret.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11840689">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.23681378">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#200#201#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2131324">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#197#198#0" expanded="false" />
+            <element signature="e#226#227#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1133,100 +1128,66 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/AdvancedFireTurret.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16576965">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="false" />
+            <element signature="e#247#248#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/CowCannon.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/inventory/ItemStack.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09472551">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.68292683">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2912#2913#0" expanded="true" />
+            <element signature="e#2961#2962#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/BasicTurret.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/tools/OmniTool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AdvancedAimedTurretSpawnBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#128#160#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1435#1436#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-          </folding>
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/BasicTurretSpawnBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28417653">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/inventory/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/AimedTurretSpawnBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1234,18 +1195,64 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlocks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
-            <element signature="e#661#662#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/TurretTypes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/blocks/SpawnBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11840689">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/TowerDefense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/turrets/Turret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28955868">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2210#2211#0" expanded="true" />
+            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/demetryromanowski/tdb/core/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5026911">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
